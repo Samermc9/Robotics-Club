@@ -24,10 +24,13 @@ task main()
 	
 	/*
 	TASK 1 = Make the bot move forward then wait for 4 seconds. Then make the robot move backwards
+	
+	TASK 2 = Can you find a way for the robot to move clockwise (rotate)?
+	
 	*/
 	
 	
-	motor[motor1] = 50;	//Set the leftMotor (motor1) to half power (50)
-	motor[motor6] = 50; //Set the rightMotor (motor6) to half power (50)
-	sleep(2000);				//Wait for 2 seconds before continuing on in the program.
+	motor[motor1] = 50; //Set the leftMotor (motor1) to half power (50)
+	motor[motor6] = -50; //Set the rightMotor (motor6) to half power (50)
+	sleep(2000); //Wait for 2 seconds before continuing on in the program.
 }
