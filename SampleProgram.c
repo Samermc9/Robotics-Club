@@ -33,6 +33,5 @@ task main() //The program starts here, everything inside will be executed
 	
 	
 	motor[motor1] = 50; //Set the leftMotor (motor1) to half power (50)
-	motor[motor6] = -50; //Set the rightMotor (motor6) to half power (50)
 	sleep(2000); //Wait for 2 seconds before continuing on in the program.
 }
