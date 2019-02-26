@@ -12,7 +12,7 @@
     Port 6       				rightMotor         	      Right side motor (reversed)
 ------------------------------------------------------------------------------------------------*/
 
-task main()
+task main() //The program starts here, everything inside will be executed
 {
 	/*
 	NEGATIVE VALUE = reverse (anticlockwise)
@@ -21,12 +21,14 @@ task main()
 	MAX SPEED = 127
 	*/
 	
-	
 	/*
+	|||||||||DO EACH TASK FIRST BEFORE GOING TO THE NEXT|||||||||
 	TASK 1 = Make the bot move forward then wait for 4 seconds. Then make the robot move backwards
 	
 	TASK 2 = Can you find a way for the robot to move clockwise (rotate)?
 	
+	TASK 3 = Time to make your bot beautiful (because all robots are). Set the TouchLED colour to whatever colour you like! 
+	HINT: Use the function setTouchLEDColor(nDevicePort, nColor); but replace the values inside the brackets
 	*/
 	
 	
